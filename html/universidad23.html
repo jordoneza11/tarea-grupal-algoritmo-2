@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglo Notas</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <link rel="icon" type="image/jpg" href="img/unemi.jpg">
+</head>
+<body>
+    <header>
+        <h2>Dado un arreglo de notas obtener el promedio y la moda</h2>
+    </header>
+    <div class="ejercicio1">
+        <form action="../index.html">
+            <div>
+              <label for="mensaje">Ingrese un arreglo de notas separadas por comas:</label>
+              <input id="notas" type="text" placeholder="Ejemplo: 85,90,78,92,85,90,85"> 
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="calcularPromedioModa()">Resolver</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado">
+            
+        </div>
+        <img id="imagen" style="display: none;" width="300" height="250">
+    </div>
+    <script src="../js/ejercicio23.js"></script>
+</body>
+</html>

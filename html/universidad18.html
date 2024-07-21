@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contar texto</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <link rel="icon" type="image/jpg" href="img/unemi.jpg">
+</head>
+<body>
+    <header>
+        <h2>Contar caracteres, vocales, signos, espacios, palabras y dígitos en un texto</h2>
+    </header>
+    <div class="ejercicio1">
+        <form action="../index.html">
+            <div>
+              <label for="mensaje">Ingrese un texto:</label>
+              <input id="n" type="text" placeholder="Ingrese el texto"> 
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="textoContar()">Resolver</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <img id="imagen" style="display: none;" width="300" height="250">
+    </div>
+    <script src="../js/ejercicio18.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <link rel="icon" type="image/jpg" href="img/unemi.jpg">
+</head>
+<body>
+    <header>
+        <h2>Calculadora básica</h2>
+    </header>
+    <div class="ejercicio1">
+        <form action="../index.html">
+            <div>
+              <label for="mensaje">Ingrese un numero:</label>
+              <input id="n" type="number" placeholder="Ingrese un numero"> 
+            </div>
+            <div>
+                <label for="mensaje">Ingrese un numero:</label>
+                <input id="n2" type="number" placeholder="Ingrese un numero"> 
+              </div>
+            <div>
+                <button type="button" class="boton" onclick="suma()">Sumar</button>
+                <button type="button" class="boton" onclick="resta()">Restar</button>
+                <button type="button" class="boton" onclick="multiplicar()">Multiplicar</button>
+                <button type="button" class="boton" onclick="dividir()">Dividir</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <img id="imagen" style="display: none;" width="200" height="200">
+    </div>
+    <script src="../js/ejercicio15.js"></script>
+</body>
+</html>

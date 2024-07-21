@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('/img/fondounemi.jpg');
+   
+}
+header {
+    background-color: #d6d6d6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+header h1{
+    margin-left: 40px;
+}
+
+nav {
+    background-color: #d6d6d6;
+    color: white;
+    text-align: center;
+    margin-left: 403px;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+nav ul{
+    display: flex;
+    margin-top: 110px;
+}
+nav ul li{
+margin: 1rem;
+}
+section {
+    padding: 6rem;
+}
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -55px;
+    font-weight: bold;
+   
+}
+#inicio {
+    padding-bottom: 10rem;
+    background-image: url("/img/fondoini.jpg");
+}
+#nosotros{
+    padding-bottom: 20.7rem;
+    background-image: url('/img/fondounemi.jpg');
+}
+#ejercicios{
+    background-color: #f0f0f0;
+}
+#primaria{
+    background-image: url('/img/fondounemi.jpg');
+    margin-bottom: -120px;
+    min-height: calc(100vh - 100px); 
+}
+#secundaria{
+    background-image: url('/img/fondounemi.jpg');
+    margin-bottom: -120px;
+    min-height: calc(100vh - 100px); 
+}
+#universidad{
+    background-image: url('/img/fondounemi.jpg');
+    margin-bottom: -120px;
+    min-height: calc(100vh - 100px); 
+}
+#contacto{
+    background-color: #f0f0f0;
+}
+
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: 0;
+}
+a:hover{
+    color: #000000;
+    
+}
+ul{
+    list-style-type: none;
+}
+.ejercicio1 {
+    max-width: 600px;
+    margin: 90px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+
+:root {
+    --header-margin-top: -100px;
+}
+
+header {
+    margin-top: var(--header-margin-top);
+}
+
+.header-content{
+    margin-top: 100px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.boton {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #09f0dc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #45a049;
+}
+
+#resultado {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+button {
+display: block;
+}
+
+.left, .right {
+    width: 45%;
+}
+
+.social-media-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.social-media h2 {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.right h2 {
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 30%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+}
+
+.content-section {
+    display: none;
+    scroll-margin-top: 70px;
+    padding-top: 80px;
+}
+body:not(:has(:target)) #inicio {
+    display: block;
+}
+.content-section:target {
+    display: block;
+}
+.nivel-enlaces a {
+    display: inline;
+    margin: 40px;
+}
+.nivel-enlaces{
+    margin-top: 48px;
+}
+#inicio h2 {
+    font-weight: bold;
+    margin-left: 40px;
+    color: #000000;
+    font-size: 24px;
+}
+#inicio p {
+    font-weight: bold;
+    margin-left: 40px;
+    color: #ffffff;
+    font-size: 24px;
+    
+}
+.nivel {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+

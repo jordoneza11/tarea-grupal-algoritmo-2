@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de sumar y multiplicar</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <link rel="icon" type="image/jpg" href="img/unemi.jpg">
+</head>
+<body>
+    <header>
+        <h2>Pedir al usuario un número entero y tipo d tabla y generar su tabla de multiplicar o sumar del 1 al 10 usando un bucle.</h2>
+    </header>
+    <div class="ejercicio1">
+        <form action="../index.html">
+            <div>
+              <label for="mensaje">Ingrese un numero:</label>
+              <input id="n" type="number" placeholder="Ingrese un numero"> 
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="tablaMultiplicar()">Multiplicacion de su numero</button>
+                <button type="button" class="boton" onclick="tablaSumar()">Suma de su numero</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+        <img id="imagen" style="display: none;" width="200" height="200">
+    </div>
+    <script src="../js/ejercicio11.js"></script>
+</body>
+</html>
